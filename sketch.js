@@ -11,7 +11,7 @@ function setup() {
     translate(width / 2, height / 2);
   
     // Creates multiple rotating rectangles
-    for (let x = windowWidth/3; x > 0; x -= 20) {
+    for (let x = windowWidth/2.5; x > 0; x -= 20) {
         // Makes height the same as width so it's a square
         let y = x;
         strokeWeight(0.5);
